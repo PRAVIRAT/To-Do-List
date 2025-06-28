@@ -12,9 +12,12 @@ function App() {
   }
 
   function exe() {
-    setState((prevValue)=> {
+
+    if (value.trim()!=="") {
+       setState((prevValue)=> {
       return [...prevValue,value];
     });
+    }
 
     setValue("");
   }
