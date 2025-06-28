@@ -19,6 +19,10 @@ function App() {
     });
     }
 
+    if (value.trim()==="") {
+      alert("Enter the proper TEXT");
+    }
+    
     setValue("");
   }
 
