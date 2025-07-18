@@ -12,14 +12,13 @@ function App() {
   }
 
   function exe() {
-
     if (value.trim()!=="") {
        setState((prevValue)=> {
       return [...prevValue,value];
     });
     }
-
-    if (value.trim()==="") {
+    
+    if(value.trim()==="") {
       alert("Enter the proper TEXT");
     }
     
