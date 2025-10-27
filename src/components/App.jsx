@@ -69,7 +69,7 @@ function App() {
   return (
     <div className="container">
       <div className="heading">
-        <h1>To-Do List</h1>
+        <h1>Successfull List</h1>
       </div>
       <InputArea one={value} two={upd} three={exe}/>
       <div>
